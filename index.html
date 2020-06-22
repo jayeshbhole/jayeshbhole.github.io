@@ -16,10 +16,9 @@
 			}	
 			div
 			{
-				align = "centre";
-				padding = 100px;
-				width: 1200px;
-				margin: 0 auto;
+				align: "centre";
+				width: 1250px;
+				margin: 10px;
 				background-color: #ef8f8f;
 			}
 			iframe
@@ -34,7 +33,10 @@
 	
 <body>
 	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="4YI0THMY"></script>
+	<script async defer crossorigin="anonymous" 
+		src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" 
+		nonce="4YI0THMY">
+	</script>
 	
 	<div>
 		<h1 style="text-align:center">Test 5.7</h>
@@ -48,5 +50,18 @@
 	<div>
 		<iframe src="https://open.spotify.com/embed-podcast/show/7BQZHMsYPInemu2GMVSYNH" width="25%"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 	</div>
-	<div style="text-align:center" class="fb-comments" data-href="https://jayeshbhole.github.io" data-numposts="10" data-width="700"></div>
+	
+	<div data-colorscheme = "dark" style="text-align:center" class="fb-comments" 
+	     data-href="https://jayeshbhole.github.io" data-numposts="10" data-width="700">
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" 
+		     data-width="100" data-layout="button_count" data-action="like" data-size="large" data-share="true">
+		</div>
+	</div>
+	<hr>
+	<div style="text-align:center" class="fb-comments" 
+	     data-href="https://jayeshbhole.github.io" data-numposts="10" data-width="1000">
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" 
+		     data-width="100" data-layout="button_count" data-action="like" data-size="large" data-share="true">
+		</div>
+	</div>
 </html>

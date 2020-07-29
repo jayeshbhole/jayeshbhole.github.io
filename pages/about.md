@@ -7,8 +7,15 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<br>
+
+>I think therefore I am. <br> - *Descartes*
+
+<br>
+
+Hi I am **{{ site.author.name }}** :wave:,<br><br>
+
+Sophomore at Indian Institute of Information Technology, Pune. IoT and Robotics enthusiast now venturing into designing and web development. Using Keynote, Inkscape and Gimp for designing because #LongLiveOpenSource.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

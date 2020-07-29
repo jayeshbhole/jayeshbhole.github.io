@@ -2,8 +2,7 @@
 title               : Jayesh Bhole
 description         : >-
                       I turn chai :coffee: into code, <br>
-                      Tabs > Spaces <br>
-                      and never broke production.
+                      and brain juice for designs <br>
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jayeshbhole/jayeshbhole.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -40,7 +39,7 @@ author:
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : 
+  twitter           : JayeshBhole_
 # vimeo             : your_username
 # youtube           : your_channel_name
 

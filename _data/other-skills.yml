@@ -1,7 +1,11 @@
-- name: Adobe Photoshop
-  percentage: 95
-  color: info
-
-- name: Adobe Illustrator
-  percentage: 90
+- name: Inkscape
+  percentage: 80
   color: success
+
+- name: Keynote & Power Point
+  percentage: 95
+  color: danger
+
+- name: Designing
+  percentage: 80
+  color: secondary

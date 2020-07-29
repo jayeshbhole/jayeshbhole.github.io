@@ -3,9 +3,9 @@
   color: danger
 
 - name: Python
-  percentage: 65
+  percentage: 80
   color: dark
 
 - name: Python - Selenium
   percentage: 70
-  color: dark
+  color: info

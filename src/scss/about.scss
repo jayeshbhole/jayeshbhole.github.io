@@ -1,0 +1,12 @@
+#About {
+	max-width: 70ch;
+	#skills {
+		margin-top: 3rem;
+		display: flex;
+		flex-wrap: wrap;
+		div {
+			margin-top: 2rem;
+			margin-right: 8rem;
+		}
+	}
+}

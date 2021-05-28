@@ -1,0 +1,119 @@
+@import "variables.scss";
+
+nav {
+	position: sticky;
+	position: -webkit-sticky;
+
+	top: 0;
+	font-size: 1.2rem;
+	color: $accent;
+	z-index: 999;
+
+	.nav {
+		padding: 0.75rem 2rem;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		// Glass Morphism
+		background: rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(12px);
+		-webkit-backdrop-filter: blur(15px);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+
+		h3 {
+			display: none;
+			width: 100%;
+			text-align: center;
+			font-family: "Source Sans Pro", sans-serif;
+		}
+
+		span,
+		a:visited,
+		a {
+			padding: 0.3rem 0.6rem;
+			color: $text;
+		}
+		a:visited,
+		a {
+			text-decoration: none;
+			transition: all 0.2s ease-in-out;
+
+			&:hover {
+				color: $accent;
+			}
+		}
+	}
+
+	#menu {
+		display: none;
+	}
+
+	//
+}
+
+@media (max-width: 600px) {
+	nav {
+		position: fixed;
+		display: flex;
+		right: 0;
+		width: 100%;
+		#menu {
+			position: absolute;
+			top: 1.5rem;
+			right: 1.5rem;
+			height: 2.5rem;
+			width: 2.5rem;
+			display: inline;
+			font-size: 2rem;
+
+			// position: relative;
+			svg {
+				position: absolute;
+				top: 0;
+				left: 0;
+				transition: all 0.5s ease-in-out;
+				background: #464696;
+				padding: 0.25rem;
+				border-radius: 5px;
+				&.false {
+					clip-path: circle(0% at 50% 50%);
+				}
+				&.true {
+					clip-path: circle(150% at 50% 50%);
+				}
+			}
+		}
+		.nav {
+			height: auto;
+			flex-direction: column;
+			align-items: flex-start;
+			background: #0b0b27;
+			transition: all 0.5s ease-in-out;
+			width: 100%;
+			border-radius: 0 0 1rem 1rem;
+			h3 {
+				display: block;
+			}
+
+			&.false {
+				clip-path: circle(0% at 100% 0);
+				display: none;
+			}
+			&.true {
+				clip-path: circle(150% at 100% 0);
+			}
+			&.flex-true {
+				display: flex;
+			}
+			a {
+				margin-left: 2rem;
+			}
+		}
+		&.true + .sections {
+			filter: opacity(0.2);
+		}
+		&.false + .sections {
+			filter: opacity(1);
+		}
+	}
+}

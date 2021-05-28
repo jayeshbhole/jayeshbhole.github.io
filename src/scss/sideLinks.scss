@@ -1,0 +1,74 @@
+@import "variables.scss";
+
+#sidelinks {
+	position: fixed;
+	right: 0;
+	top: calc(50vh + 2rem);
+	margin-right: 1.5rem;
+	transform: translateY(-50%);
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		a:visited,
+		a {
+			transition: all 0.2s ease-in-out;
+			color: $text;
+			text-decoration: none;
+			padding: 0.5rem 0;
+			font-size: 1.5rem;
+			position: relative;
+
+			span {
+				transition: all 0.2s ease-in-out;
+				width: 8ch;
+				text-align: center;
+				border-radius: 0.25rem;
+				color: $accent;
+				font-size: 1rem;
+				padding: 0.5rem;
+				display: none;
+				position: absolute;
+				right: 3rem;
+				top: 50%;
+				transform: translateY(-55%);
+				background: #030e38;
+				box-shadow: 1px 1px 2px $accent;
+			}
+			&:hover {
+				color: $accent;
+				span {
+					opacity: 1;
+					display: inline;
+				}
+			}
+		}
+
+		&::before,
+		&::after {
+			content: "";
+			width: 0;
+			border: solid $text 1.5px;
+			background-color: $text;
+			position: fixed;
+			height: calc((80vh / 2) - 4rem);
+			border-radius: 2rem;
+			right: 50%;
+		}
+		&::before {
+			top: 0;
+			transform: translate(50%, -105%);
+		}
+		&::after {
+			transform: translate(50%, 105%);
+			bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	#sidelinks {
+		display: none;
+	}
+}

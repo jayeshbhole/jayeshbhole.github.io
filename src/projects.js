@@ -1,11 +1,20 @@
 const projects = [
 	{
+		title: "MarsMello",
+		description:
+			"An exciting Decentralised Game built on React, Solidity and GraphQL",
+		demoLink: "https://marsmello.netlify.app",
+		codeLink: "https://github.com/jayeshbhole/MarsMello",
+		techStack: ["React", "React Spring", "Web3.js", "Soidity"],
+		preview: "marsmello.png",
+	},
+	{
 		title: "Certify",
 		description:
 			"A decentralised service for creating and verifying certificates on the Ethereum Blockchain",
 		demoLink: "https://certify-eth.web.app/",
 		codeLink: "https://github.com/jayeshbhole/certify-client",
-		techStack: ["React", "Firebase", "Web3.js"],
+		techStack: ["React", "Firebase", "Web3.js", "Solidity"],
 		preview: "Certify.png",
 	},
 	{

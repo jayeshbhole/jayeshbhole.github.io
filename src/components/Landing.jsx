@@ -14,7 +14,7 @@ const Landing = () => {
                 <span style={{ fontSize: "2.3rem" }}>🕸️</span>
             </h2>
             <span style={{ display: "block" }}>
-                Developer (Self && Web), Designer,
+                Developer (Self && Web2-3), Designer,
                 <br />
                 Undergraduate @ IIIT Pune
             </span>

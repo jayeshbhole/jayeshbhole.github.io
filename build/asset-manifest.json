@@ -1,23 +1,18 @@
 {
   "files": {
-    "main.css": "/portfooledyou/static/css/main.0f98ec5b.chunk.css",
-    "main.js": "/portfooledyou/static/js/main.62d4e55b.chunk.js",
-    "main.js.map": "/portfooledyou/static/js/main.62d4e55b.chunk.js.map",
-    "runtime-main.js": "/portfooledyou/static/js/runtime-main.d6a47d60.js",
-    "runtime-main.js.map": "/portfooledyou/static/js/runtime-main.d6a47d60.js.map",
-    "static/js/2.ea4b4d18.chunk.js": "/portfooledyou/static/js/2.ea4b4d18.chunk.js",
-    "static/js/2.ea4b4d18.chunk.js.map": "/portfooledyou/static/js/2.ea4b4d18.chunk.js.map",
-    "index.html": "/portfooledyou/index.html",
-    "static/css/main.0f98ec5b.chunk.css.map": "/portfooledyou/static/css/main.0f98ec5b.chunk.css.map",
-    "static/js/2.ea4b4d18.chunk.js.LICENSE.txt": "/portfooledyou/static/js/2.ea4b4d18.chunk.js.LICENSE.txt",
-    "static/media/Certify.png": "/portfooledyou/static/media/Certify.234bd600.png",
-    "static/media/eclecticJourney.png": "/portfooledyou/static/media/eclecticJourney.f055cac5.png",
-    "static/media/lighthouse.png": "/portfooledyou/static/media/lighthouse.0ebaa3e2.png"
+    "main.css": "/static/css/main.c1f28573.css",
+    "main.js": "/static/js/main.fa227d2d.js",
+    "static/media/marsmello.png": "/static/media/marsmello.994d05c8512b3dba3e08.png",
+    "static/media/Shatranj.png": "/static/media/Shatranj.7c84540f1b01ff225404.png",
+    "static/media/eclecticJourney.png": "/static/media/eclecticJourney.f055cac547aca34a48f5.png",
+    "static/media/Certify.png": "/static/media/Certify.234bd600e23cbb501157.png",
+    "static/media/lighthouse.png": "/static/media/lighthouse.0ebaa3e2e7d4aa9e4e6c.png",
+    "index.html": "/index.html",
+    "main.c1f28573.css.map": "/static/css/main.c1f28573.css.map",
+    "main.fa227d2d.js.map": "/static/js/main.fa227d2d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6a47d60.js",
-    "static/js/2.ea4b4d18.chunk.js",
-    "static/css/main.0f98ec5b.chunk.css",
-    "static/js/main.62d4e55b.chunk.js"
+    "static/css/main.c1f28573.css",
+    "static/js/main.fa227d2d.js"
   ]
 }
